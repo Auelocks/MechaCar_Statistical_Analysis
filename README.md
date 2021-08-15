@@ -20,10 +20,10 @@ Furthermore, the intercept term is statistically significant indicating a consid
 ### Summary Statistics on Suspension Coils
 
 The second analysis utilizes RStudio and suspension coil manufacturing data from multiple production lots to create summary statistics and test for consistency in production.  First, the suspension coil PSI measurements are checked for variability among the full dataset by generating a summary table “total_summary” to examine mean, median, variance, and standard deviation of the suspension coil’s PSI:
- ![total_summary](/Images/total_summary.png) 
+ ![total_summary](Images/total_summary.PNG) 
 
 Next, the PSI metrics are grouped for each manufacturing lot to examine variability in the summary statistics between lots in the “lot_summary” shown below:
-![lot_summary](/Images/lot_summary.png)
+![lot_summary](/Images/lot_summary.PNG)
 
 The design specifications for the MechaCar suspension coils dictate that the variance of the suspension coils must not exceed pounds per square inch.  Based on the total summary, the variance is not exceeded for the total production data.  However, when the variance is computed based on individual lots, it is clear that Lot 3 with a variance of 170.29 psi is exceeding the allowable variance in manufacturing.  Lots 1 and 2 are well within the allowable variance.
 
